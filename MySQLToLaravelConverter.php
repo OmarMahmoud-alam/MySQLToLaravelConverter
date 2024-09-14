@@ -491,5 +491,5 @@ class {$seederName} extends Seeder
     }
 }
 
-$converter = new MySQLToLaravelConverter('D:/everyThing/alifilm/omarcourse/flutter/script/booksell.sql', 'D:/everyThing/alifilm/omarcourse/flutter/script/output');
+$converter = new MySQLToLaravelConverter('D:/everyThing/alifilm/omarcourse/flutter/script/booksell.sql', './output');
 $converter->convert();
