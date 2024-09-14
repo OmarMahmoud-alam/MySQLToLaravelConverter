@@ -28,3 +28,10 @@ Open `MySQLToLaravelConverter.php` and replace the path to the MySQL dump file:
 
 ```php
 $converter = new MySQLToLaravelConverter('./booksell.sql', './output');
+```
+
+## Command
+Run the converter using the following command:
+```sh
+ php MySQLToLaravelConverter.php
+```
